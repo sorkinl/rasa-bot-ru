@@ -118,6 +118,8 @@ nlu:
       - Будет [15:00](TIME) работать?
       - [12:00](TIME)
       - [12](TIME)
+      - В [8 вечера](TIME)
+      - В [11 утра](TIME)
 
   - intent: out_of_scope
     examples: |
