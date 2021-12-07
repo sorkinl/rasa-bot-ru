@@ -51,6 +51,7 @@ entities:
   - reason
   - PERSON
   - TIME
+  - PER
 slots:
   name:
     type: rasa.shared.core.slots.TextSlot
@@ -115,7 +116,7 @@ forms:
   appointment_form:
     required_slots:
       name:
-        - entity: PERSON
+        - entity: PER
           type: from_entity
       reason:
         - type: from_text

@@ -115,9 +115,9 @@ nlu:
 
   - intent: infrom_time
     examples: |
-      - Будет [15:00] работать?
-      - [12:00]
-      - [12]
+      - Будет [15:00](TIME) работать?
+      - [12:00](TIME)
+      - [12](TIME)
 
   - intent: out_of_scope
     examples: |

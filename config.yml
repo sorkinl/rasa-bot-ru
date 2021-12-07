@@ -5,11 +5,12 @@ language: "ru" # your two-letter language code
 
 pipeline:
   - name: SpacyNLP
-    model: "ru_core_news_sm"
+    model: "ru_core_news_lg"
   - name: SpacyTokenizer
   - name: SpacyEntityExtractor
   - name: SpacyFeaturizer
     pooling: mean
+  - name: RegexEntityExtractor
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
